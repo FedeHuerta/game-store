@@ -33,3 +33,12 @@
 .neonboy {
   height: 570px;
 }
+
+.footer {
+  background-color: rgb(37, 42, 45);
+}
+
+.us {
+  background-color: rgb(246, 244, 255);
+  font-family: "Manrope", sans-serif;
+}

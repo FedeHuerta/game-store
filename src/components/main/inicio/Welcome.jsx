@@ -1,4 +1,4 @@
-import neonboy from '../../assets/neonboy.png'
+import neonboy from '../../../assets/neonboy.png'
 
 export const Welcome = () => {
     return (
@@ -8,7 +8,7 @@ export const Welcome = () => {
                 <p className="text-lg">Explora y descubre los mejores productos de tecnología.</p>
             </div>
             <div className="w-1/2 relative mt-auto">
-                <img src={neonboy} alt="Hombre con mascara neon mirando al usuario" className=" neonboy"/>
+                <img src={neonboy} alt="Hombre con mascara neon mirando al usuario" className="neonboy"/>
             </div>
         </section>
     )
