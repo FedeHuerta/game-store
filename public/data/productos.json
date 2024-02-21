@@ -90,7 +90,7 @@
     {
         "id": 9,
         "name": "Cama Cueva Para Gatos Con Forrado De Felpa",
-        "brand": "",
+        "brand": "Artesanal",
         "stock": 5,
         "price": 57800,
         "pet": "Gatos",
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "name": "Cama Suave Con Rascador Para Gatos",
-        "brand": "",
+        "brand": "Artesanal",
         "stock": 5,
         "price": 62500,
         "pet": "Gatos",
