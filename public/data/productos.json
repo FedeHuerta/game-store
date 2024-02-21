@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "Alimento Maintenance Criadores Adulto 22kg",
+        "brand": "Maintenance Criadores",
+        "stock": 10,
+        "price": 21000,
+        "pet": "Perros",
+        "type": "alimentos",
+        "size": "Adulto",
+        "img": "1.png"
+    },
+    {
+        "id": 2,
+        "name": "Alimento Pedigree Cachorro 21kg",
+        "brand": "Pedigree",
+        "stock": 10,
+        "price": 36900,
+        "pet": "Perros",
+        "type": "alimentos",
+        "size": "Cachorro",
+        "img": "2.png"
+    },
+    {
+        "id": 3,
+        "name": "Alimento Cat Chow Adultos Pescado y Pollo 15kg",
+        "brand": "Cat Chow",
+        "stock": 10,
+        "price": 45000,
+        "pet": "Gatos",
+        "type": "alimentos",
+        "size": "Adulto",
+        "img": "3.png"
+    },
+    {
+        "id": 4,
+        "name": "Alimento Excellent Cachorros Kitten 7,5kg",
+        "brand": "Excellent",
+        "stock": 10,
+        "price": 40000,
+        "pet": "Gatos",
+        "type": "alimentos",
+        "size": "Cachorro",
+        "img": "4.png"
+    },
+    {
+        "id": 5,
+        "name": "Cepillo Para Perros y Gatos Ferplast Gro 5948 Extra Large",
+        "brand": "Ferplast Gro",
+        "stock": 10,
+        "price": 15000,
+        "pet": ["Perros", "Gatos"],
+        "type": "higiene-y-cuidados",
+        "size": ["Adulto", "Cachorro"],
+        "img": "5.png"
+    },
+    {
+        "id": 6,
+        "name": "Shampoo Perros Cachorros PGP 250cc",
+        "brand": "Osspret",
+        "stock": 10,
+        "price": 3100,
+        "pet": "Perros",
+        "type": "higiene-y-cuidados",
+        "size": "Cachorro",
+        "img": "6.png"
+    },
+    {
+        "id": 7,
+        "name": "Cama Moises Para Perros Comoda Mullida Desmontable 60x50",
+        "brand": "Moises",
+        "stock": 5,
+        "price": 27800,
+        "pet": "Perros",
+        "type": "accesorios",
+        "size": "Pequeño",
+        "img": "7.png"
+    },
+    {
+        "id": 8,
+        "name": "Cama Moises Para Perros Grandes Comoda y Mullida",
+        "brand": "Moises",
+        "stock": 5,
+        "price": 35800,
+        "pet": "Perros",
+        "type": "accesorios",
+        "size": "Grande",
+        "img": "8.png"
+    },
+    {
+        "id": 9,
+        "name": "Cama Cueva Para Gatos Con Forrado De Felpa",
+        "brand": "",
+        "stock": 5,
+        "price": 57800,
+        "pet": "Gatos",
+        "type": "accesorios",
+        "size": "Mediano",
+        "img": "9.png"
+    },
+    {
+        "id": 10,
+        "name": "Cama Suave Con Rascador Para Gatos",
+        "brand": "",
+        "stock": 5,
+        "price": 62500,
+        "pet": "Gatos",
+        "type": "accesorios",
+        "size": "Grande",
+        "img": "10.png"
+    },
+    {
+        "id": 11,
+        "name": "Juguete Peluche Para Cachorros Con Sonido",
+        "brand": "Terra Pet",
+        "stock": 10,
+        "price": 4500,
+        "pet": "Perros",
+        "type": "juguetes",
+        "size": "Pequeño",
+        "img": "11.png"
+    },
+    {
+        "id": 12,
+        "name": "Juguete Hueso de Soga Anti Estres",
+        "brand": "Rascals",
+        "stock": 10,
+        "price": 5500,
+        "pet": "Perros",
+        "type": "juguetes",
+        "size": "Grande",
+        "img": "12.png"
+    },
+    {
+        "id": 13,
+        "name": "Juguete Raton A Cuerda Para Gatos",
+        "brand": "Rast",
+        "stock": 10,
+        "price": 7890,
+        "pet": "Gatos",
+        "type": "juguetes",
+        "size": "Pequeño",
+        "img": "13.png"
+    },
+    {
+        "id": 14,
+        "name": "Juguete De Caña De Pescar Gatos",
+        "brand": "Cosy And Dozy",
+        "stock": 10,
+        "price": 12300,
+        "pet": "Gatos",
+        "type": "juguetes",
+        "size": "Mediano",
+        "img": "14.png"
+    }
+]

@@ -1,5 +1,5 @@
-import { ItemListContainer } from '../ItemListContainer.jsx'
-import { CartWidget } from "../CartWidget"
+import { Link } from "react-router-dom"
+import { CartWidget } from "../CartWidget.jsx"
 import { AiOutlineSearch } from 'react-icons/ai'
 
 
@@ -8,10 +8,10 @@ export const SeccionDcha = () => {
         <>
             <div className="flex items-center">
                 <div className="flex space-x-4 bg-red categorias text-lg">
-                    <a className='text-white' href=""><ItemListContainer mensaje={"Inicio"} /></a>
-                    <a className='text-white' href=""><ItemListContainer mensaje={"Productos"} /></a>
-                    <a className='text-white' href=""><ItemListContainer mensaje={"Ayuda"} /></a>
-                    <a className='text-white' href=""><ItemListContainer mensaje={"Contacto"} /></a>
+                    <Link className='text-white' to="/">Inicio</Link>
+                    <Link className='text-white' to='/productos'>Productos</Link>
+                    <a className='text-white' href="">Ayuda</a>
+                    <a className='text-white' href="">Contacto</a>
                 </div>
                 <div className="flex items-center">
                     <div className="flex items-center mx-3">

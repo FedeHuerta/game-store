@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap');
 
 .bienvenida {
-  background: radial-gradient(83.7% 91.5% at 78% 100%, #3336cc 0%, rgb(37, 42, 45) 100%);
+  background: radial-gradient(83.7% 91.5% at 78% 100%, #ff77c2 0%, rgb(86, 131, 255) 100%);
   font-family: "Inter", sans-serif;
+  background-attachment: fixed;
 }
 
 .navbar {
-  background-color: rgb(37, 42, 45);
+  background-color: rgb(86, 131, 255);
   font-family: "Manrope", sans-serif;
 }
 
 .carrito {
-  background-color: rgb(53, 55, 151);
+  background-color: #ff77c2;
 }
 
 .carrito:hover {
@@ -27,15 +28,15 @@
 }
 
 .categorias a:hover {
-  color: rgb(93, 95, 239);
+  color: #ff77c2;
 }
 
-.neonboy {
+.pets {
   height: 570px;
 }
 
 .footer {
-  background-color: rgb(37, 42, 45);
+  background-color: rgb(86, 131, 255);
 }
 
 .us {
