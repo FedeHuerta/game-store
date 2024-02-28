@@ -8,7 +8,7 @@ export const Welcome = () => {
                 <p className="text-xl">Para mascotas felices y hogares alegres.</p>
             </div>
             <div className="w-1/2 relative mt-auto">
-                <img src={pets} alt="Hombre con mascara neon mirando al usuario" className="pets"/>
+                <img src={pets} alt="Perros y gatos mirando al usuario" className="pets"/>
             </div>
         </section>
     )
