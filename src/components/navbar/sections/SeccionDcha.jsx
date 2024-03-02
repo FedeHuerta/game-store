@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { CartWidget } from "../CartWidget.jsx"
+import { CartWidget } from "../../main/carrito/CartWidget"
 import { AiOutlineSearch } from 'react-icons/ai'
 
 

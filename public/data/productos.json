@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "Alimento Maintenance Criadores Adulto 22kg",
         "brand": "Maintenance Criadores",
         "stock": 10,
@@ -8,10 +8,10 @@
         "pet": "Perros",
         "type": "alimentos",
         "size": "Adulto",
-        "img": "1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/1.png?alt=media&token=91681dbd-ad30-4c3c-ba09-1d81ee2f1987"
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "Alimento Pedigree Cachorro 21kg",
         "brand": "Pedigree",
         "stock": 10,
@@ -19,10 +19,10 @@
         "pet": "Perros",
         "type": "alimentos",
         "size": "Cachorro",
-        "img": "2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/2.png?alt=media&token=3a18c341-f4e9-4bb1-9813-e625e2167048"
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Alimento Cat Chow Adultos Pescado y Pollo 15kg",
         "brand": "Cat Chow",
         "stock": 10,
@@ -30,10 +30,10 @@
         "pet": "Gatos",
         "type": "alimentos",
         "size": "Adulto",
-        "img": "3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/3.png?alt=media&token=e9d976c9-35fa-4bee-80f6-e13f746125ce"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Alimento Excellent Cachorros Kitten 7,5kg",
         "brand": "Excellent",
         "stock": 10,
@@ -41,10 +41,10 @@
         "pet": "Gatos",
         "type": "alimentos",
         "size": "Cachorro",
-        "img": "4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/4.png?alt=media&token=00cae104-a501-422a-a1bd-5bc6997d2221"
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "Cepillo Para Perros y Gatos Ferplast Gro 5948 Extra Large",
         "brand": "Ferplast Gro",
         "stock": 10,
@@ -52,10 +52,10 @@
         "pet": ["Perros", "Gatos"],
         "type": "higiene-y-cuidados",
         "size": ["Adulto", "Cachorro"],
-        "img": "5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/5.png?alt=media&token=6a8f6c1d-7b48-4f4e-9687-5c746b55d9cf"
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "Shampoo Perros Cachorros PGP 250cc",
         "brand": "Osspret",
         "stock": 10,
@@ -63,10 +63,10 @@
         "pet": "Perros",
         "type": "higiene-y-cuidados",
         "size": "Cachorro",
-        "img": "6.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/6.png?alt=media&token=673fbed1-6aed-4075-8ef9-162bde107143"
     },
     {
-        "id": 7,
+        "id": "7",
         "name": "Cama Moises Para Perros Comoda Mullida Desmontable 60x50",
         "brand": "Moises",
         "stock": 5,
@@ -74,10 +74,10 @@
         "pet": "Perros",
         "type": "accesorios",
         "size": "Pequeño",
-        "img": "7.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/7.png?alt=media&token=9bf63882-6d37-45b8-805d-d62f4554a945"
     },
     {
-        "id": 8,
+        "id": "8",
         "name": "Cama Moises Para Perros Grandes Comoda y Mullida",
         "brand": "Moises",
         "stock": 5,
@@ -85,10 +85,10 @@
         "pet": "Perros",
         "type": "accesorios",
         "size": "Grande",
-        "img": "8.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/8.png?alt=media&token=663ef727-fea0-4f68-8889-d1a6d75b4e24"
     },
     {
-        "id": 9,
+        "id": "9",
         "name": "Cama Cueva Para Gatos Con Forrado De Felpa",
         "brand": "Artesanal",
         "stock": 5,
@@ -96,10 +96,10 @@
         "pet": "Gatos",
         "type": "accesorios",
         "size": "Mediano",
-        "img": "9.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/9.png?alt=media&token=252243e3-c42b-49fe-b65e-b73bdc3cb7e3"
     },
     {
-        "id": 10,
+        "id": "10",
         "name": "Cama Suave Con Rascador Para Gatos",
         "brand": "Artesanal",
         "stock": 5,
@@ -107,10 +107,10 @@
         "pet": "Gatos",
         "type": "accesorios",
         "size": "Grande",
-        "img": "10.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/10.png?alt=media&token=3ce27f6a-7f7f-40af-a49e-8b1d65c99ac1"
     },
     {
-        "id": 11,
+        "id": "11",
         "name": "Juguete Peluche Para Cachorros Con Sonido",
         "brand": "Terra Pet",
         "stock": 10,
@@ -118,10 +118,10 @@
         "pet": "Perros",
         "type": "juguetes",
         "size": "Pequeño",
-        "img": "11.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/11.png?alt=media&token=537ac01c-b79e-4f46-9e71-ba58cb92e322"
     },
     {
-        "id": 12,
+        "id": "12",
         "name": "Juguete Hueso de Soga Anti Estres",
         "brand": "Rascals",
         "stock": 10,
@@ -129,10 +129,10 @@
         "pet": "Perros",
         "type": "juguetes",
         "size": "Grande",
-        "img": "12.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/12.png?alt=media&token=5a9900e2-0e50-4b31-80cd-f970d7ec400f"
     },
     {
-        "id": 13,
+        "id": "13",
         "name": "Juguete Raton A Cuerda Para Gatos",
         "brand": "Rast",
         "stock": 10,
@@ -140,10 +140,10 @@
         "pet": "Gatos",
         "type": "juguetes",
         "size": "Pequeño",
-        "img": "13.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/13.png?alt=media&token=60802d4d-05e2-44d9-a844-5e61408d37e2"
     },
     {
-        "id": 14,
+        "id": "14",
         "name": "Juguete De Caña De Pescar Gatos",
         "brand": "Cosy And Dozy",
         "stock": 10,
@@ -151,6 +151,6 @@
         "pet": "Gatos",
         "type": "juguetes",
         "size": "Mediano",
-        "img": "14.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactjs-60225.appspot.com/o/14.png?alt=media&token=73880702-5e7c-4c87-8700-0d0ef1332e84"
     }
 ]

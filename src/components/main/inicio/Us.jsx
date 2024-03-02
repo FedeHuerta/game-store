@@ -25,7 +25,7 @@ export const Us = () => {
                                 <img src={mf1} alt="Un perro persiguiendo al otro jugando" className="object-cover h-full rounded-lg" />
                             </div>
                             <div className="object-cover">
-                                <img src={mf2} alt="Perro golden dandole la pata al dueño" className="h-full rounded-lg object-cover" />
+                                <img src={mf2} alt="Gato con los ojos cerrados siendo acariciado por su dueña" className="h-full rounded-lg object-cover" />
                             </div>
                             <div className="object-cover">
                                 <img src={mf3} alt="Perro contento sacando la lengua mirando a la camara" className="h-full rounded-lg object-cover" />

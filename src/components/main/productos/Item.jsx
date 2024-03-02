@@ -5,7 +5,7 @@ export const Item = ({ product }) => {
         <Link to={`/productos/${product.type}/${product.id}`}>
             <div className="max-w-xs mx-auto bg-white p-8 rounded-lg shadow-md h-auto flex flex-col justify-between">
                 <div className="relative">
-                    <img src={`../img/${product.img}`} alt={`Imagen de ${product.name}`} className="w-full h-64 object-contain" />
+                    <img src={`${product.img}`} alt={`Imagen de ${product.name}`} className="w-full h-64 object-contain" />
                     <div className="absolute top-2 right-2 bg-gray-800 text-white px-2 py-1 rounded-md">{product.stock} en stock</div>
                 </div>
                 <div className="flex flex-col justify-between">
