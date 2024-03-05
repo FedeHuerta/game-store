@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
+import { getProducts } from "../../../firebase/firebase";
 
 export const ItemListContainer = () => {
     const { cid } = useParams();
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('../data/productos.json')
-            .then(response => response.json())
+        getProducts()
             .then(prods => {
                 if (cid) {
                     const productosFiltrados = prods.filter(prod => prod.type === cid)
