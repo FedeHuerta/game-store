@@ -1,6 +1,7 @@
 import { useCounter } from "../../../hooks/useCounter";
 import { Link } from "react-router-dom";
 import { useCarritoContext } from "../../../context/CartContext";
+import { toast } from "react-toastify";
 
 export const ItemDetail = ({ item }) => {
     const { addItem } = useCarritoContext()
@@ -8,6 +9,16 @@ export const ItemDetail = ({ item }) => {
 
     const handleAddToCart = () => {
         addItem(item, count)
+        toast.success(`Producto Agregado Al Carrito.`, {
+            position: "bottom-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light"
+        })
     }
 
     return (
