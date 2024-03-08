@@ -3,6 +3,8 @@ import 'react-toastify/dist/ReactToastify.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { NavbarComponent } from './components/navbar/NavbarComponent.jsx'
 import { Inicio } from './components/main/inicio/Inicio.jsx'
+import { Ayuda } from './components/main/ayuda/Ayuda.jsx'
+import { Contacto } from './components/main/contacto/Contacto.jsx'
 import { Footer } from './components/footer/Footer.jsx'
 import { NotFound } from './components/NotFound.jsx'
 import { Categories } from './components/main/productos/Categories.jsx'
@@ -27,6 +29,8 @@ function App() {
               <Route path='/productos' element={<Categories />} />
               <Route path='/productos/:cid' element={<ItemListContainer />} />
               <Route path='/productos/:cid/:pid' element={<ItemDetailsContainer />} />
+              <Route path='/ayuda' element={<Ayuda />} />
+              <Route path='/contacto' element={<Contacto />} />
               <Route path='/cart' element={<Cart />} />
               <Route path='/checkout' element={<Checkout />} />
               <Route path='*' element={<NotFound />} />

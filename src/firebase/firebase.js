@@ -40,12 +40,13 @@ export const deleteProduct = async (id) => {
 }
 
 //Create and Read Ordenes de Compra
-export const createOrdenCompra = async (cliente, precioTotal, carrito, fecha) => {
+export const createOrdenCompra = async (cliente, precioTotal, carrito) => {
+    const fechaCompra = new Date().toLocaleDateString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone });
     const ordenCompra = await addDoc(collection(bdd, "ordenesCompra"), {
         cliente: cliente,
         items: carrito,
         precioTotal: precioTotal,
-        fecha: fecha,
+        fecha: fechaCompra,
     })
 
     return ordenCompra
@@ -56,3 +57,21 @@ export const getOrderCompra = async (id) => {
     const item = { ...ordenCompra.data(), id: ordenCompra.id }
     return item
 }
+
+export const createForm = async (cliente) => {
+    const fechaContacto = new Date().toLocaleDateString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone });
+    try {
+        const contactRef = await addDoc(collection(bdd, "contactos"), {
+            nombre: cliente.nombre,
+            apellido: cliente.apellido,
+            celular: cliente.celular,
+            provincia: cliente.provincia,
+            localidad: cliente.localidad,
+            mensaje: cliente.mensaje,
+            fechaContacto: fechaContacto,
+        });
+        return contactRef.id;
+    } catch (e) {
+        console.log(e);
+    }
+};

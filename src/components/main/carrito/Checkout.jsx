@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { useCarritoContext } from "../../../context/CartContext.jsx"
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { createOrdenCompra, getOrderCompra, getProduct, updateProduct } from "../../../firebase/firebase.js"
+import { createOrdenCompra, getProduct, updateProduct } from "../../../firebase/firebase.js"
 
 export const Checkout = () => {
     const formRef = useRef()
@@ -43,7 +43,7 @@ export const Checkout = () => {
         //Generar la orden de compra
         const aux2 = aux.map(prod => ({ id: prod.id, quantity: prod.quantity, price: prod.price }))
 
-        createOrdenCompra(cliente, totalPrice(), aux2, new Date().toLocaleDateString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
+        createOrdenCompra(cliente, totalPrice(), aux2)
             .then(ordenCompra => {
                 toast.success(`¡Compra realizada con éxito! ID de compra: ${ordenCompra.id}`, {
                     position: "bottom-center",
@@ -116,7 +116,7 @@ export const Checkout = () => {
                                     <select id="paymentMethod" name="paymentMethod" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" required>
                                         <option value="">Seleccionar método de pago</option>
                                         <option value="tarjeta">Tarjeta de crédito/débito</option>
-                                        <option value="paypal">PayPal</option>
+                                        <option value="mercadopago">MercadoPago</option>
                                         <option value="transferencia">Transferencia bancaria</option>
                                     </select>
                                 </div>
