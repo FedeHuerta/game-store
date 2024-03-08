@@ -14,6 +14,7 @@ import { CarritoProvider } from './context/CartContext.jsx'
 import { ToastContainer } from 'react-toastify'
 
 function App() {
+
   return (
     <div className="flex flex-col min-h-screen">
       <BrowserRouter>

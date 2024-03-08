@@ -19,11 +19,26 @@ export const NavbarComponent = () => {
                         <img src={logo} alt="logo de la pagina" />
                     </Link>
                 </div>
-                <div className="hidden sm:flex items-center space-x-4 bg-red categorias text-lg">
+                <div className="hidden sm:flex items-center space-x-4 bg-red categorias text-lg ml-auto px-4">
                     <Link className="text-white" to="/">Inicio</Link>
                     <Link className="text-white" to="/productos">Productos</Link>
                     <Link className="text-white" to="/ayuda">Ayuda</Link>
                     <Link className="text-white" to="/contacto">Contacto</Link>
+                </div>
+                <div className="hidden sm:flex items-center">
+                    <div className="flex items-center mx-3">
+                        <form className="w-[250px] relative">
+                            <div>
+                                <input type="search" placeholder="Buscar" className="w-full p-3 rounded-full bg-grey text-black" />
+                                <button className="absolute right-1 top-1/2 -translate-y-1/2 p-3 bg-slate-300 rounded-full lupa">
+                                    <AiOutlineSearch />
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <CartWidget />
+                    </div>
                 </div>
                 <div className="sm:hidden flex items-center justify-between space-x-4">
                     <div className="w-10"><CartWidget /></div>
@@ -48,21 +63,6 @@ export const NavbarComponent = () => {
                         </div>
                     </div>
                 )}
-                <div className="hidden sm:flex items-center">
-                    <div className="flex items-center mx-3">
-                        <form className="w-[250px] relative">
-                            <div>
-                                <input type="search" placeholder="Buscar" className="w-full p-3 rounded-full bg-grey text-black" />
-                                <button className="absolute right-1 top-1/2 -translate-y-1/2 p-3 bg-slate-300 rounded-full lupa">
-                                    <AiOutlineSearch />
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <div>
-                        <CartWidget />
-                    </div>
-                </div>
             </div>
         </nav>
     );
