@@ -39,7 +39,7 @@ export const Contacto = () => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-blue-100">
+        <div className="min-h-screen flex items-center justify-center bg-blue-100 mt-8">
             <div className="container mx-auto px-4 py-8 flex flex-wrap items-center justify-between shadow-2xl rounded-lg bg-white">
                 <h2 className="text-4xl font-bold mb-4 text-gray-800">Ponte En Contacto Con Nosotros</h2>
                 <form className="w-full" ref={formRef} onSubmit={handleSubmit}>
